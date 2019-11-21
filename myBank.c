@@ -1,6 +1,6 @@
 #include "myBank.h"
 #include <stdio.h>
-double account [ACCOUNT_SIZE][DETAIL_ACCOUNT];
+static double account [ACCOUNT_SIZE][DETAIL_ACCOUNT]={{0}};
 
 void o(){
 int i_temp=-1;
