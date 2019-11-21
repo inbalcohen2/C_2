@@ -3,7 +3,7 @@ all: compile run clean
 compile:
 		gcc -Wall -g -o main.o myBank.c main.c
 run:
-	./run.o	
+	./main.o	
 compilerun:
 			gcc -Wall -g -o main.o myBank.c main.c
 			./main.o
