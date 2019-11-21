@@ -39,6 +39,8 @@ if(current=='E'){
 } 
 if(current!='O'||current!='B'||current!='D'||current!='W'||current!='C'||current!='I'||current!='P'||current!='E'){
 printf("\nTransaction type?:");
+   getchar();
+
 
        }
 
